@@ -1,3 +1,5 @@
+# 基本数据类型：float
+
 import sys
 from decimal import Decimal
 

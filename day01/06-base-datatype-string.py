@@ -1,3 +1,5 @@
+# 基本数据类型：String
+
 import sys
 
 name = "乔治"
