@@ -11,4 +11,3 @@ def get_sum(num1, num2):
 # 调用函数
 sum = get_sum(10, 30)
 print(f"两数相机的结果：{sum}")
-
