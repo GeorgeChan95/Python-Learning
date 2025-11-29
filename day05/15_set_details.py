@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2025/11/29 17:41
 # @Author  : George
-# @File    : 15_set_operations.py
+# @File    : 15_set_details.py
 
-# set 的常用操作
+# set 的特点
 
 # 1、集合是由不重复元素组成的无序容器
 print("########### set自动去重 ###########")
