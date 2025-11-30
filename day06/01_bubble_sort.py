@@ -4,13 +4,9 @@
 # @Author  : George
 # @File    : 01_bubble_sort.py
 
+# 冒泡排序
 
 def bubble_sort(data_list):
-    r'''
-    冒泡排序
-    :param data_list:
-    :return:
-    '''
     for i in range(0, len(data_list) - 1): # 外层循环控制多少论排序：列表长度减1次
         for j in range(0, len(data_list) - 1 - i): # 内层循环控制，在当前这轮循环中，要比较多少次
             if data_list[j] > data_list[j + 1]: # 如果前面的元素 > 后面的元素, 就交换
