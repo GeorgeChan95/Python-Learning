@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2025/12/10 19:31
 # @Author  : George
-# @File    : 03_isinstance.py
+# @File    : 17_isinstance.py
 
 class AA:
     pass
