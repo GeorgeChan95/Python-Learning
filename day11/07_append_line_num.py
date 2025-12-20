@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2025/12/20 9:12
 # @Author  : George
-# @File    : 001_append_line_num.py
+# @File    : 07_append_line_num.py
 
 # 读取b.txt , 给每一行内容加行号
 
