@@ -27,7 +27,7 @@ with open(r"d:/test.csv") as f:
 # csv 文件的写入
 headers = ["工号","姓名","年龄","地址","月薪"]
 rows = [("1001","高淇",18,"西三旗1号院","50000"),("1002","高八",19,"西三旗1号院","30000")]
-with open(r"test2.csv", "w") as f2:
+with open(r"test2.csv", "w", encoding="utf-8", newline='') as f2: # newline='' 去除行与行之间的换行符
     w_f2 = csv.writer(f2)
     w_f2.writerow(headers)
     w_f2.writerows(rows)
