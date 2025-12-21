@@ -7,6 +7,7 @@
 # csv文件的读写操作
 import csv
 
+# csv 文件的读取
 with open(r"d:/test.csv") as f:
     cf = csv.reader(f)
     header = next(cf)
@@ -21,3 +22,12 @@ with open(r"d:/test.csv") as f:
 第：1行内容：['戴璐', '22', '160', '50']
 第：2行内容：['江青', '18', '180', '88']
 '''
+
+
+# csv 文件的写入
+headers = ["工号","姓名","年龄","地址","月薪"]
+rows = [("1001","高淇",18,"西三旗1号院","50000"),("1002","高八",19,"西三旗1号院","30000")]
+with open(r"test2.csv", "w") as f2:
+    w_f2 = csv.writer(f2)
+    w_f2.writerow(headers)
+    w_f2.writerows(rows)
