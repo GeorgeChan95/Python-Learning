@@ -3,6 +3,7 @@
 # @Time    : 2026/1/5 19:48
 # @Author  : George
 # @File    : 05_thread_lock.py
+# coding=utf-8
 
 # 多线程锁
 from threading import Thread
