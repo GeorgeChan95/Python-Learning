@@ -3,9 +3,9 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2026/1/27 19:21
 # @Author  : George
-# @File    : 01_process_base.py
+# @File    : 01_process_method.py
 
-# 进程的基础使用
+# 进程的基础使用（使用方法创建线程）
 
 from multiprocessing import Process
 from time import sleep
