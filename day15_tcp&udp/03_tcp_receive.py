@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2026/2/4 19:23
 # @Author  : George
-# @File    : 04_tcp_receive.py
+# @File    : 03_tcp_receive.py
 from socket import SOCK_STREAM, AF_INET, socket
 
 # 使用TCP完成消息的收发
