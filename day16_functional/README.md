@@ -12,3 +12,5 @@
   - 闭包与自由变量的坑及解决办法
 - day16_functional/04_function_map.py
   - map函数的使用
+- day16_functional/05_function_map_2.py
+  - map函数传入多个序列
