@@ -14,3 +14,5 @@
   - map函数的使用
 - day16_functional/05_function_map_2.py
   - map函数传入多个序列
+- day16_functional/06_function_reduce.py
+  - reduce函数的使用
