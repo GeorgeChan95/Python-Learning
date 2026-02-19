@@ -16,3 +16,7 @@
   - map函数传入多个序列
 - day16_functional/06_function_reduce.py
   - reduce函数的使用
+- day16_functional/08_function_sorted.py
+  - sorted基本使用
+- day16_functional/08_function_sorted_2.py
+  - sorted自定义实现类的排序
