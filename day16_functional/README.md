@@ -10,3 +10,5 @@
   - 闭包与自由变量，使用nonlocal，让内部函数记住自由变量，并修改自由变量，实现参数自增。
 - day16_functional/03_function_closure_3.py
   - 闭包与自由变量的坑及解决办法
+- day16_functional/04_function_map.py
+  - map函数的使用
