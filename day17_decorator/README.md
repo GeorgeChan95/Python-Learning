@@ -14,3 +14,5 @@
   - 内置装饰器，staticmethod
 - day17_decorator/07_decorator_classmethod.py
   - classmethod装饰器
+- day17_decorator/08_decorator_class.py
+  - 类装饰器
