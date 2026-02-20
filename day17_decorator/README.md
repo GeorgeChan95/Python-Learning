@@ -6,3 +6,5 @@
   - 多个装饰器的执行顺序
 - day17_decorator/03_decorator_with_params.py
   - 带参数的装饰器
+- day17_decorator/04_decorator_wraps.py
+  - @wraps 传递原始函数属性
