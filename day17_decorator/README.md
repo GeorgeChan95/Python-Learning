@@ -10,3 +10,5 @@
   - @wraps 传递原始函数属性
 - day17_decorator/05_decorator_property.py
   - 内置装饰器 property
+- day17_decorator/06_decorator_staticmethod.py
+  - 内置装饰器，staticmethod

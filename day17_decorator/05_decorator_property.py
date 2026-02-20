@@ -26,3 +26,8 @@ if __name__ == '__main__':
     total = u1.totalSalary2()
     # 由于使用了 @property 装饰器，这里可以像使用属性一样，获取函数的返回结果
     print(f"{u1.name} 年薪为：{u1.totalSalary}, 调用方法返回：{total}")
+
+'''
+打印如下：
+tom 年薪为：36000, 调用方法返回：36000
+'''
