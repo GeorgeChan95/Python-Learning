@@ -12,3 +12,5 @@
   - 内置装饰器 property
 - day17_decorator/06_decorator_staticmethod.py
   - 内置装饰器，staticmethod
+- day17_decorator/07_decorator_classmethod.py
+  - classmethod装饰器
