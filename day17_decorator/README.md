@@ -16,3 +16,5 @@
   - classmethod装饰器
 - day17_decorator/08_decorator_class.py
   - 类装饰器
+- day17_decorator/09_decorator_exercise.py
+  - 缓存装饰器和计时装饰器综合练习：实现函数执行结果缓存和计时的装饰器功能
