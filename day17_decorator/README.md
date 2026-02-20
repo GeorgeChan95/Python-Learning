@@ -8,3 +8,5 @@
   - 带参数的装饰器
 - day17_decorator/04_decorator_wraps.py
   - @wraps 传递原始函数属性
+- day17_decorator/05_decorator_property.py
+  - 内置装饰器 property
