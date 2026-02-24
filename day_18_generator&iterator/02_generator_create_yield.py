@@ -33,3 +33,20 @@ if __name__ == '__main__':
     a.__next__() # 第二次执行 a.__next__() ， 程序从 temp = 开始往下执行，i+=1 后继续下一个while循环，然后暂停在 yield i， 此时temp是 None, i 是1，此时还没有执行 print(f"temp:{temp}")
     a.__next__() # 第三次执行 a.__next__() ， 程序从 temp = 开始往下执行，i+=1 后继续下一个while循环，然后暂停在 yield i， 此时temp是 None, i 是2，此时还没有执行 print(f"temp:{temp}")
     a.__next__() # 第四次执行 a.__next__() ， 程序从 temp = 开始往下执行，temp:None，i:2, end, 无法进入while循环了，return “done”，此时会报错：StopIteration:
+
+'''
+运行结果如下：
+<generator object test at 0x000001C5C5A7F850>
+start
+temp:None
+i:0
+temp:None
+i:1
+temp:None
+i:2
+end
+Traceback (most recent call last):
+  File "E:\study\PythonLearning\Python-Learning\day_18_generator&iterator\02_generator_create_yield.py", line 34, in <module>
+    a.__next__()
+StopIteration: done
+'''
