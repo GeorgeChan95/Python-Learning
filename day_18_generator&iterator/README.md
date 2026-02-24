@@ -10,3 +10,5 @@
   - 测试 yield 的使用
 - day_18_generator&iterator/05_iterator_test.py
   - 迭代器的简单测试
+- day_18_generator&iterator/06_iterator_create.py
+  - 自定义迭代器
