@@ -6,3 +6,5 @@
   - yield方式创建生成器
 - day_18_generator&iterator/03_generator_create_send.py
   - 生成器 send 方法的使用
+- day_18_generator&iterator/04_test_yield.py
+  - 测试 yield 的使用
