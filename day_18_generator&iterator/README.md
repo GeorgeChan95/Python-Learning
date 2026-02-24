@@ -8,3 +8,5 @@
   - 生成器 send 方法的使用
 - day_18_generator&iterator/04_test_yield.py
   - 测试 yield 的使用
+- day_18_generator&iterator/05_iterator_test.py
+  - 迭代器的简单测试
