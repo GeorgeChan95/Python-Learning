@@ -14,3 +14,5 @@
   - 自定义迭代器
 - day_18_generator&iterator/07_动态给对象添加属性和方法.py
   - 动态给对象添加属性和方法
+- day_18_generator&iterator/08_动态的给类添加静态方法和类方法.py
+  - 动态的给类添加静态方法和类方法
