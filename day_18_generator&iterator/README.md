@@ -16,3 +16,5 @@
   - 动态给对象添加属性和方法
 - day_18_generator&iterator/08_动态的给类添加静态方法和类方法.py
   - 动态的给类添加静态方法和类方法
+- day_18_generator&iterator/09_slot.py
+  - slot 可以限制动态添加成员变量和成员方法
