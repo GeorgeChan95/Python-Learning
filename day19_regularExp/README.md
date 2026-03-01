@@ -1,3 +1,10 @@
-- day19_regularExp/01_match_1.py
+- day19_regularExp/01_match_test.py
   - 测试正则表达式 match 函数的使用
-- 
+- day19_regularExp/02_match_flag.py
+  - match函数，使用flag标志位
+- day19_regularExp/03_match_wildcard.py
+  - match 函数常用匹配符
+- day19_regularExp/04_match_qualifier.py
+  - match 函数限定符的使用
+- day19_regularExp/05_match_qualifier_case.py
+  - 正则表达式限定符案例测试
