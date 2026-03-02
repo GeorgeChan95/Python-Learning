@@ -8,3 +8,7 @@
   - match 函数限定符的使用
 - day19_regularExp/05_match_qualifier_case.py
   - 正则表达式限定符案例测试
+- day19_regularExp/06_native_str.py
+  - 原生字符串
+- day19_regularExp/07_boundary_str.py
+  - 边界字符的使用
