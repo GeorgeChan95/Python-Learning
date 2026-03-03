@@ -12,5 +12,9 @@
   - 原生字符串
 - day19_regularExp/07_boundary_str.py
   - 边界字符的使用
+- day19_regularExp/08_search.py
+  - search 函数的使用
 - day19_regularExp/09_alternation_operator.py
   - 择一匹配符的使用
+- day19_regularExp/10_group_match.py
+  - 分组匹配
