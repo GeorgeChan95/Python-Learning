@@ -18,3 +18,13 @@
   - 择一匹配符的使用
 - day19_regularExp/10_group_match.py
   - 分组匹配
+- day19_regularExp/11_sub_subn.py
+  - 搜索与替换
+- day19_regularExp/12_compile.py
+  - 编译正则表达式
+- day19_regularExp/13_findall.py
+  - findAll函数
+- day19_regularExp/14_finditer.py
+  - finditer函数
+- day19_regularExp/15_split.py
+  - split函数
