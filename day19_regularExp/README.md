@@ -28,3 +28,5 @@
   - finditer函数
 - day19_regularExp/15_split.py
   - split函数
+- day19_regularExp/16_greedy_mode.py
+  - 贪婪模式和非贪婪模式
