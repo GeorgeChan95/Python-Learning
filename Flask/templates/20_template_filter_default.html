@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>你好，{{ nick_name }}</h1>
+    </br>
+    <!--  boolean=False 只在“变量不存在（undefined）”时才用默认值  -->
+    <h1>你好，{{ nick_name | default('用户1',boolean=False) }}</h1>
+    </br>
+    <h1>你好，{{ nick_name or '用户2' }}</h1>
+</body>
+</html>

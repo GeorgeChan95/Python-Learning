@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>转义字符过滤器</h1>
+    <!-- 模板中默认 做了转义字符的效果 -->
+    转义前的数据是（弹框）：{{ info | safe }}  <!-- 不转义：不将特殊字符转换成 &lt;类似的数据 -->
+    </br>
+    </br>
+    </br>
+    转移后的数据：
+    {% autoescape true %} <!-- false代表不再转义特殊字符 / true 转义特殊字符  &lt;-->
+    {{info }}  <!-- 转义：将特殊字符转换成 &lt;类似的数据 -->
+    {% endautoescape %}
+</body>
+</html>

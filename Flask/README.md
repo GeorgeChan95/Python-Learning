@@ -29,3 +29,9 @@
   - 返回元组
 - [15_custom_response.py](15_custom_response.py)
   - 自定义响应
+- [16_use_template.py](16_use_template.py)
+  - 使用模板(hello world)
+- [17_template_params.html](templates%2F17_template_params.html)
+  - 模板传参
+- [18_template_url_for.html](templates%2F18_template_url_for.html)
+  - 在模板中使用 url_for 函数
