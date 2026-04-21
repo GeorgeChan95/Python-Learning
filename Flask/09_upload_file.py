@@ -19,7 +19,7 @@ def upload_file():
     f.seek(0, 2) # 指针移动到文件末尾
     size = f.tell() # 报告当前指针位置（文件字节大小）
     print(f'文件大小：{size}')
-    f.seek(0)
+    f.seek(0) # 指针移动到文件开头
     print(f'name: {f.name}') # 参数名称
     print(f'filename: {f.filename}') # 文件名
     f.save(f.filename) # 保存文件
