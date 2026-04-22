@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>ifelse分支</title>
+</head>
+<body>
+    <h1>单分支</h1><br/>
+    {% if name == 'George' %}
+    <div>{{ name }}</div>
+    {% endif %}
+
+    <h1>双分支</h1><br/>
+    {% if age < 18 %}
+    <div style="color: red">未成年</div>
+    {% else %}
+    <div style="color: green">已成年</div>
+    {% endif %}
+
+    <h1>多分支</h1><br/>
+    {% if age < 18 %}
+    <div style="color: red">未成年</div>
+    {% elif age >= 18 %}
+    <div style="color: green">已成年</div>
+    {% endif %}
+</body>
+</html>

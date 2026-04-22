@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板分支流程练习</title>
+</head>
+<body>
+    <span>中国大陆</span>&nbsp;&nbsp;&nbsp;
+    {% if not user %}
+    <a href="{{ url_for('login', user='吕布') }}">亲，请登录</a>
+    {% else %}
+    <div>欢迎：{{ user }}</div>
+    {% endif %}
+    <span>手机逛淘</span>
+</body>
+</html>
