@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板循环结构</title>
+</head>
+<body>
+    <h1>模板循环结构</h1>
+    <div>
+        {% for item in items %}
+            <p>{{ item }}</p>
+        {% endfor %}
+    </div><br/>
+    <div>
+        {% for item in items %}
+            <p>{{ loop.index }}: {{ item }}</p>
+        {% endfor %}
+    </div><br/>
+
+
+    {% for item in items %}
+        {{item}} == {{ loop.index }} =={{ loop.index0 }} == {{loop.first}}=={{ loop.last }} == {{loop.length}}<br>
+    {% endfor %}
+
+    <hr><br/>
+
+    <div>
+      <ul>{{ person }}</ul>
+      {% for key in person.keys() %}
+        <ul>{{ key }}</ul>
+      {% endfor %}
+    </div><br/>
+
+    <div>
+      <ul>{{ person }}</ul>
+      {% for key, value in person.items() %}
+        <ul>{{ key }} : {{ value }}</ul>
+      {% endfor %}
+    </div><br/>
+</body>
+</html>
