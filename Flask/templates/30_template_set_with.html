@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+    <h1>模板中的set和with</h1>
+
+    {% set uname = 'george' %}
+    <div> {{ uname }}</div>
+
+    {% with nick = 'davi' %}
+    <div> {{ nick }}</div>
+    {% endwith %}
+
+
+    {% with %}
+        {% set uname = 'Kaly' %}
+        <div> {{ uname }}</div>
+    {% endwith %}
+</body>
+</html>
